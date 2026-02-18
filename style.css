@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background:#f4f6f9;
+  color:#333;
+  scroll-behavior:smooth;
+}
+
+header{
+  background:#0a192f;
+  padding:20px 80px;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  color:#64ffda;
+  font-weight:700;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav ul li{
+  margin-left:30px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+nav ul li a:hover{
+  color:#64ffda;
+}
+
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px;
+}
+
+.hero-text h1 span{
+  color:#0a192f;
+}
+
+.hero-text h3{
+  margin:10px 0;
+  color:#555;
+}
+
+.btn-group{
+  margin-top:20px;
+}
+
+button, .btn-outline{
+  padding:12px 25px;
+  border:none;
+  cursor:pointer;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:600;
+}
+
+button{
+  background:#0a192f;
+  color:white;
+}
+
+.btn-outline{
+  border:2px solid #0a192f;
+  color:#0a192f;
+}
+
+.hero-img img{
+  width:280px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.section{
+  padding:80px;
+  text-align:center;
+}
+
+.dark{
+  background:#0a192f;
+  color:white;
+}
+
+.skills-container{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.skill-card{
+  background:white;
+  color:#0a192f;
+  padding:15px 30px;
+  border-radius:10px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.skill-card:hover{
+  transform:translateY(-5px);
+}
+
+.project-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.project-card{
+  background:white;
+  padding:25px;
+  width:300px;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-8px);
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#0a192f;
+  color:white;
+}
